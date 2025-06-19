@@ -58,10 +58,6 @@ body {
     gap: 40px;
 }
 
-.header-address {
-
-}
-
 .header-address-link {
     font-style: normal;
     font-weight: 400;
@@ -130,7 +126,7 @@ body {
     height: 56px;
     border: none;
     border-radius: 4px;
-    
+
 }
 
 .hero-page-button:hover {
@@ -141,12 +137,21 @@ body {
     background-color: #404BBF;
 }
 
+.solutions {
+    padding: 120px 0;
+}
+
+.visially-hiden .solution-title {
+    
+}
+
 .solutions-text {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    display: flex;
 }
 
 .solution-p {
@@ -155,6 +160,21 @@ body {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
+    display: flex;
+}
+
+.solutions-list {
+    display: flex;
+    gap: 24px;
+}
+
+.solutions-list-item {
+    width: calc((100%-72px)/4);
+
+}
+
+.solutions-text {
+    margin-bottom: 8px;
 }
 
 .team {
