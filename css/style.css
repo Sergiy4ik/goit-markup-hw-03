@@ -253,7 +253,7 @@ body {
 
 .portfolio-list-item {
     background-color: #FFFFFF;
-    width: calc((100%-48px)/3);
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-description-container {
@@ -303,14 +303,7 @@ body {
     color: #f4f4fd;
 }
 
-.first-footer-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 117%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
+footer a {
     display: inline-block;
     margin-bottom: 16px;
 }
