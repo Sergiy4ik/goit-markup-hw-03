@@ -179,6 +179,7 @@ body {
 
 .team {
     background-color: #f4f4fd;
+    padding: 120px 0;
 }
 
 .team-title {
@@ -189,10 +190,24 @@ body {
     color: #2e2f42;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
-.team-list {
+.team-list{
+    display: flex;
+    width: calc((100%-72px)/4);
+    gap: 24px;
+
+}
+
+
+.team-list-item {
     background-color: #fff;
+    border-radius: 0 0 4px 4px;
+}
+
+.team-description-container {
+    padding: 32px 0;
 }
 
 .team-name {
@@ -202,6 +217,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .team-description {
