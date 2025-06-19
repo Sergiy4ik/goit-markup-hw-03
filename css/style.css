@@ -103,16 +103,18 @@ body {
 }
 
 .hero-page {
-    background-color: #2e2f42;;
+    background-color: #2e2f42;
+    padding: 188px 0;
 }
 
-.hero-page-text {
+.hero-page-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
 }
 
 .hero-page-button {
@@ -123,6 +125,12 @@ body {
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    
 }
 
 .hero-page-button:hover {
