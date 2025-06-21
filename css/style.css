@@ -1,5 +1,14 @@
 *{    font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
 }
 
 img {
@@ -48,6 +57,7 @@ ul {
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
+    display: block;
 }
 
 .header-navigation-link:hover {
@@ -58,11 +68,14 @@ ul {
     color: #404bbf;
 }
 
+.header-address {
+    margin-left: auto;
+}
+
 .header-address-list {
     font-style: normal;
     display: flex;
     gap: 40px;
-    margin-left: 332px;
 }
 
 .header-address-link {
@@ -118,7 +131,7 @@ ul {
     text-align: center;
     color: #fff;
     max-width: 496px;
-    margin: 48px auto;
+    margin: 0 auto 48px;
 }
 
 .hero-page-button {
@@ -134,7 +147,7 @@ ul {
     height: 56px;
     border: none;
     border-radius: 4px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .hero-page-button:hover {
