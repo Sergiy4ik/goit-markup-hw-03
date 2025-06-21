@@ -62,6 +62,7 @@ ul {
     font-style: normal;
     display: flex;
     gap: 40px;
+    margin-left: 332px;
 }
 
 .header-address-link {
@@ -117,6 +118,7 @@ ul {
     text-align: center;
     color: #fff;
     max-width: 496px;
+    margin: 48px auto;
 }
 
 .hero-page-button {
@@ -132,7 +134,7 @@ ul {
     height: 56px;
     border: none;
     border-radius: 4px;
-
+    margin: auto;
 }
 
 .hero-page-button:hover {
